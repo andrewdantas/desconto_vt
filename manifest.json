@@ -1,0 +1,13 @@
+{
+    "name": "DescontoVT",
+    "start_url": "/desconto_vt",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/icon2.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

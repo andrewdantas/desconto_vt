@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto VT</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Calcular o Desconto do VT</h1>
+        <div><img src="img/vale-transporte.png" alt="vale-transporte"></div>
+        <form name="frmVT" onsubmit="return calcular()">
+            <input type="number" name="txtSalario" placeholder="R$: Valor do Salário" required>
+            <p><input type="text" name="txtVT" placeholder="Valor Descontado" disabled></p>
+            <p><input type="text" name="txtDesconto" placeholder="Salário Final" disabled></p>
+            <input type="submit" value="Calcular">
+            <input type="reset" value="Limpar" onclick="limpar()">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
